@@ -286,7 +286,7 @@ weekXX-模块名/
 |-----|------|------|------|
 | Day 1 | 环境搭建 + Spring Boot CRUD + Git 规范化 | ✅ | `week01-基础巩固-Java核心/日报-Day01.md` |
 | Day 2 | 手写 MyArrayList + List 性能 Benchmark | ✅ | `week01-基础巩固-Java核心/日报-Day02.md` |
-| Day 3 | HashMap 源码 + 手写 LRU Cache | ⏳ 待开始 | - |
+| Day 3 | HashMap 源码 + 手写 LRU Cache | ✅ | `week01-基础巩固-Java核心/日报-Day03.md` |
 | Day 4-6 | JUC 并发（死锁 + 生产者消费者 + 线程池） | ⏳ 待开始 | - |
 | Day 7 | 算法刷题 + 周总结 | ⏳ 待开始 | - |
 
@@ -296,7 +296,10 @@ weekXX-模块名/
 1. 读 `CLAUDE.md`（本文件）→ 了解身份、教学原则、当前进度
 2. 读最近一篇日报 → 了解昨天的学习内容和踩坑
 3. 读 `git log --oneline -5` → 确认代码提交状态
-4. **不需要**读取历史对话记录——日报已经足够
+4. 读对应 Week 的 `README.md` → 了解本周整体安排，做大致规划
+5. **不需要**读取历史对话记录——日报已经足够
+
+开始新的一天（Day N）时，AI 必须先读对应 Week 的 `README.md` 了解本周目标，再结合当日安排制定计划。
 
 ---
 

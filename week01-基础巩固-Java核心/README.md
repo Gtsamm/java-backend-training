@@ -10,12 +10,12 @@
 ## 🎯 本周目标清单
 
 - [已完成] 完成 JDK17 + Trae CN + Maven + Git + Docker 环境搭建
-- [ ] 能手写 ArrayList、LRU Cache 的简易实现
-- [ ] 能对着源码讲清楚 HashMap 的 put 流程
+- [已完成] 能手写 ArrayList、LRU Cache 的简易实现
+- [已完成] 能对着源码讲清楚 HashMap 的 put 流程
 - [ ] 能用 JUC 工具类写出生产者-消费者模型
 - [ ] 能手动配置线程池并说出每个参数的作用
 - [ ] LeetCode Hot 100 刷完 10 题
-- [ ] 掌握 Git 分支管理 + 规范化提交（Conventional Commits）
+- [已完成] 掌握 Git 分支管理 + 规范化提交（Conventional Commits）
 - [ ] GitHub 提交记录连续 7 天 ✅
 
 ---

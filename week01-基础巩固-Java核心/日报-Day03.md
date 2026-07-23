@@ -12,13 +12,13 @@
 
 ### 1. put() 延迟初始化的 NPE
 - 问题描述：第一次 put 时，table 还是 null，先算 `table.length - 1` 直接 NPE
-- 排查过程：看到提示 `table == null`，确认是延迟初始化的问题，debugInfo 打印出来只有 12 个桶，不是 16 个，发现把 threshold 当 capacity 用了
+- 排查过程：编译报错提示 `table` 可能为 null，定位到 `table.length - 1` 这一行，发现延迟初始化的代码写在了 index 计算之后
 - 解决方案：把延迟初始化移到 index 计算之前
 - 学到的教训：空指针检查要在使用引用之前，不能之后
 
 ### 2. 扩容时数组大小用了 threshold 而不是 capacity
 - 问题描述：`table = new Node[threshold]`，threshold=12，数组只有 12 个桶
-- 排查过程：...
+- 排查过程：debugInfo 打印出来只有 12 个桶不是 16 个，发现把 threshold 当 capacity 用了
 - 解决方案：`capacity = (int)(threshold / loadFactor)`，从阈值反推容量
 - 学到的教训：threshold 和 capacity 是两个不同的概念，不能混用
 
