@@ -1,0 +1,5 @@
+# ====== JVM 实验产物（不入库）======
+# 堆转储文件（几十 MB）+ MAT 分析索引
+dump/
+# Maven 生成的 classpath 文件
+cp.txt
